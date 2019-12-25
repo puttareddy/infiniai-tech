@@ -832,6 +832,8 @@ figcaption {
   color: #fff;
 }
 
+
+
 .line-1 {
   position: absolute;
   left: 0px;
@@ -1980,6 +1982,61 @@ figcaption {
 
 .button-nav-link-text.color3 {
   background-color: #1e3c79;
+}
+
+.nav-link-2 {
+  position: relative;
+  padding: 16px 20px 18px;
+  -webkit-transition: opacity 150ms ease;
+  transition: opacity 150ms ease;
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.nav-link-2:hover {
+  opacity: 1;
+  color: hsla(230.22471910112358, 88.12%, 60.39%, 1.00);
+}
+
+.nav-link-2.w--current {
+  -webkit-transition-property: none;
+  transition-property: none;
+  color: #096ad0;
+  font-weight: 700;
+}
+
+.nav-link-2.border {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(230.22471910112358, 88.12%, 60.39%, 1.00);
+  border-radius: 50px;
+  opacity: 1;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+}
+
+.nav-link-2.border:hover {
+  background-color: hsla(230.22471910112358, 88.12%, 60.39%, 1.00);
+  color: #fff;
+}
+.w-nav-link {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #222222;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.w-nav-link.w--current {
+  color: #0082f3;
 }
 
 .section-2 {
