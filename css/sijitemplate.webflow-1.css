@@ -1932,6 +1932,7 @@ figcaption {
   padding-left: 4px;
   border-bottom-style: none;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-link.w--current {
@@ -2024,7 +2025,7 @@ figcaption {
 }
 
 .paragraph-medium.margin-bottom.ondark {
-  color: #0b4;
+  color: #345;
 }
 
 .paragraph-medium.center-text {
@@ -2805,7 +2806,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 3px solid #fff;
+  border: 3px solid #ffbf34;
   border-radius: 40px;
   text-decoration: none;
 }
