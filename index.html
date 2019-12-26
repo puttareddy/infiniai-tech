@@ -306,7 +306,11 @@
     <div class="container">
       <div class="col lg-6 md-12">
         <div class="w-form">
-          <form id="email-form" name="email-form" data-name="Email Form"><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your name" id="name"><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Your email address" id="email" required=""><textarea placeholder="Your message" maxlength="5000" id="field" name="field" required="" class="contact-textarea margin-bottom w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-3 w-button"></form>
+          <form id="email-form" name="email-form" data-name="Email Form" action="mailto:info@infiniai.tech" method="post" enctype="text/plain">
+          	<input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your name" id="name">
+          	<input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Your email address" id="email" required="true">
+          	<textarea placeholder="Your message" maxlength="5000" id="field" name="field" required="" class="contact-textarea margin-bottom w-input"></textarea>
+          	<input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-3 w-button"></form>
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
