@@ -2883,6 +2883,8 @@ figcaption {
   width: 100%;
   padding: 40px;
   background-color: #effafe;
+  align-self: flex-start;
+  height: 150px;
 }
 
 .grid-work {
@@ -2974,6 +2976,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  align-items: flex-start;
 }
 
 .testimonial-card-name-container {
