@@ -4449,6 +4449,13 @@ figcaption {
   }
 }
 
+@media( max-width: 768px){
+  .process-2-1 {
+    width: 60%;
+    margin-left: 17%;
+  }
+}
+
 @media (max-width: 479px) {
   .container.padding-v40 {
     display: -webkit-box;
